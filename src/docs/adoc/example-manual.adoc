@@ -2,6 +2,8 @@
 Doc Writer <doc.writer@example.org>
 v1.0, 2014-09-09
 :example-caption!:
+:sectnums:
+:sectnumlevels: 2
 ifndef::imagesdir[:imagesdir: images]
 ifndef::plantumldir[:plantumldir: ../plantuml]
 ifndef::sourcedir[:sourcedir: ../../main/java]
@@ -57,8 +59,9 @@ WARNING: Includes can be tricky!
 
 Including the sequence diagram
 
-[.thumb]
-image::{plantumldir}/diagram.png[scaledwidth=75%]
+[#sequence-diagram]
+.Sequence Diagram
+image::{plantumldir}/diagram.png[Sequence Diagram,scaledwidth=100%]
 
 == Source Code and Syntax Highlighting
 
